@@ -25,7 +25,6 @@
             <textarea class="form-control" name="content">{{ old('content') == '' ? $post->content : old('content') }}</textarea>
         </div>
         <button type="submit" class="btn btn-outline-primary">Submit</button>
-        <input type="submit">
     </form>
     
     <a href="/posts/{{ $post->id }}">Show</a>
